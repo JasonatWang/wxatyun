@@ -1,6 +1,7 @@
 # wxatyun
-A website providing cloud disk service.
-# Version 0.1.0 Establish the Program
+A website providing cloud disk service written in php with the framwork named thinkphp.
+
+# Version_0.1.0_Establish the Program
 # Function Already Exists in v0.1.0:<br/>
 1.Sign up<br/>
 2.Sign in<br/>
