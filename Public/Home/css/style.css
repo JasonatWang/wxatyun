@@ -1,0 +1,159 @@
+body{
+    font-family: "Microsoft YaHei UI";
+    padding:0;
+
+    background-color: rgba(0, 0, 0, 0.1);
+    /*background-color: rgba(0,0,0,0.1);2016/8/27*/
+}
+.navbar{
+    margin: 0;
+    background-color:rgba(0,0,0,1);/*导航栏黑色透明度*/
+    box-shadow:0 1px rgba(0,0,0,0.1);
+    border: none;
+    border-radius: 0;
+    font-size: 1.1em;
+    z-index: 1;
+    transition: all ease 0.25s;
+}
+.navbar-toggle .icon-bar{
+    background-color: white;
+}
+.navbar-brand {
+    font-size: 2em;
+    color: white;
+    padding-top: 5px;
+}
+.navbar-brand:visited{
+    color: white;
+    margin-top: 0;
+}
+.navbar-brand:hover, .navbar-brand:active{
+    color: #2aabd2;
+}
+.nav>li>a:focus, .nav>li>a:hover{
+    background-color: #2aabd2;
+}
+
+.navbar-nav>li>a {
+    color: white;
+    min-width: 110px;/*2016/8/27*/
+    text-align:center;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
+    background-color: #2aabd2;
+}
+
+.input-group-addon{
+    color: #2aabd2;
+}
+.dropdown-menu{
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    /*margin-top: 0 !important;*/
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{
+    background-color: rgba(42, 171, 210, 0.7);
+    color: white;
+}
+.dropdown-menu>li>a{
+    color: white;
+}
+
+.list-group-item:focus, .list-group-item:hover,.list-group-item:active{
+    background-color: #2aabd2!important;
+    color: white!important;
+}
+a.list-group-item, button.list-group-item {
+    color: white;
+
+}
+#sidebar{
+    padding-left: 0;
+    text-align: left;
+    /*width: 140px;*/
+    background-color: rgba(0,0,0,1);
+    padding-right: 0;
+    position: fixed;/*2016829*/
+    height: 100%;/*2016829*/
+}
+.list-group-item{
+    /*height: 20%;2016829*/
+    font-size: 1.2em;
+    background-color: rgba(0,0,0,1);
+    border: none;
+}
+.btn-group{
+    /*background-color: rgba(0, 0, 0, 0.1);*/
+    float: right;/*2016829*/
+    right: 0;
+}
+.filelist{
+    height: 487px;
+    /*background-color: rgba(0, 0, 0, 0.1);*/
+    float: right;/*2016829*/
+
+}
+#searchico{
+    border: 0;
+    background-color: rgba(0,0,0,0);
+}
+
+/*login页面*/
+#myCarousel{
+    /*margin-top: 50px;*/
+    /*height: 500px;*/
+
+}
+.carousel-caption{
+    /*font-size: 1.3em;*/
+    font-size: 1.3em;
+}
+#test{
+    /*height: 100px;*/
+    width: 400px;
+    /*padding-right: 0;*/
+    padding:10px;
+    background-color: rgba(255,255,255,0.8);
+    /*background-color: rgba(0,0,0,1);*/
+
+    border-radius: 20px;
+    position: fixed;
+    float: right;
+    right:50px;
+    top:100px;
+}
+#login{
+    background-color: #2aabd2;
+    border: none;
+    font-size: 1.1em;
+}
+#loginfooter{
+    text-align: right;
+}
+#welcome{
+    font-size: 1.6em;
+    text-align: center;
+}
+#verifyimg{
+    margin-left: 20px;
+}
+#verify{
+    width: 60%;
+}
+/*下载按钮*/
+#actionbtn{
+    background-color: rgba(0,0,0,0);
+    /*border-color: black;*/
+    border: none;
+    float: right;
+    color: black;
+    opacity: 0;
+}
+#actionlist:hover #actionbtn{
+    /*hoverdownloadlist时按钮显示*/
+    opacity: 1;
+}
+#actionlist{
+    background-color: rgba(0,0,0,0.1);
+    color: black;
+}

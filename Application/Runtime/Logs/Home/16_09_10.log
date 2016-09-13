@@ -1,0 +1,1395 @@
+[ 2016-09-10T23:21:33+08:00 ] ::1 /mywebsite_demo/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014826s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012903s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.011280s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.011642s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002864s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003106s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003417s ]
+
+[ 2016-09-10T23:21:33+08:00 ] ::1 /mywebsite_demo/index.php/Home/Login/creatVerify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001594s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002327s ]
+
+[ 2016-09-10T23:21:37+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001956s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009770s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001101s ]
+
+[ 2016-09-10T23:21:50+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002034s ]
+
+[ 2016-09-10T23:21:58+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002873s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000496s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015457s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015627s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000999s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001129s ]
+
+[ 2016-09-10T23:22:59+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009826s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000878s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000916s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001063s ]
+
+[ 2016-09-10T23:23:30+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001092s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000454s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012558s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000992s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001146s ]
+
+[ 2016-09-10T23:23:50+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006315s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000539s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001294s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013956s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001007s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001146s ]
+
+[ 2016-09-10T23:24:30+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000947s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001543s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010294s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010516s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001754s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001180s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001334s ]
+
+[ 2016-09-10T23:33:35+08:00 ] ::1 /mywebsite_demo/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000944s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001077s ]
+
+[ 2016-09-10T23:33:35+08:00 ] ::1 /mywebsite_demo/index.php/Home/Login/creatVerify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001616s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001156s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001404s ]
+
+[ 2016-09-10T23:33:37+08:00 ] ::1 /mywebsite_demo/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000332s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011280s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001064s ]
+
+[ 2016-09-10T23:33:37+08:00 ] ::1 /mywebsite_demo/index.php/Home/Login/creatVerify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001432s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002237s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002655s ]
+
+[ 2016-09-10T23:33:40+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001564s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000903s ]
+
+[ 2016-09-10T23:34:02+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+SQL: SHOW COLUMNS FROM `wxatyun_user` [ RunTime:0.1138s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `wxatyun_user` WHERE `email` = 'mimaceshi@163.com' LIMIT 1   [ RunTime:0.0219s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026835s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027363s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000999s ]
+
+[ 2016-09-10T23:34:26+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003635s ]
+SQL: SHOW COLUMNS FROM `wxatyun_user` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `wxatyun_user` WHERE `email` = 'mimaceshi@163.com' LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `wxatyun_user` WHERE `cellphone` = '15600918527' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010118s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000853s ]
+
+[ 2016-09-10T23:34:31+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000126s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001913s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+SQL: SHOW COLUMNS FROM `wxatyun_user` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `wxatyun_user` WHERE `email` = 'mimaceshi@163.com' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wxatyun_user` WHERE `cellphone` = '15600918527' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010985s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000772s ]
+
+[ 2016-09-10T23:34:37+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002160s ]
+SQL: SHOW COLUMNS FROM `wxatyun_user` [ RunTime:0.0026s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `wxatyun_user` WHERE `email` = 'mimaceshi@163.com' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wxatyun_user` WHERE `cellphone` = '15600918527' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: repassword D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `wxatyun_user` (`cellphone`,`password`,`email`,`nickname`,`totalRoom`,`createTime`) VALUES ('15600918527','123456','mimaceshi@163.com','密码测试','1073741824','2016-09-10 23:34:37') [ RunTime:0.0847s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000516s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012799s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002024s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003116s ]
+
+[ 2016-09-10T23:34:39+08:00 ] ::1 /mywebsite_demo/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001303s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011948s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000887s ]
+
+[ 2016-09-10T23:34:39+08:00 ] ::1 /mywebsite_demo/index.php/Home/Login/creatVerify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001639s ]
+
+[ 2016-09-10T23:36:00+08:00 ] ::1 /mywebsite_demo/index.php/Home/Login/creatVerify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001990s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001498s ]
+
+[ 2016-09-10T23:36:05+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000969s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001397s ]
+SQL: SHOW COLUMNS FROM `wxatyun_user` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `wxatyun_user` WHERE `email` = 'mimaceshi@163.com' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010580s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001457s ]
+
+[ 2016-09-10T23:36:14+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002591s ]
+SQL: SHOW COLUMNS FROM `wxatyun_user` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `wxatyun_user` WHERE `email` = 'mimaceshi2@163.com' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wxatyun_user` WHERE `cellphone` = '15600918537' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000888s ]
+
+[ 2016-09-10T23:36:43+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001391s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000318s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000636s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025700s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001735s ]
+
+[ 2016-09-10T23:37:14+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001196s ]
+SQL: SHOW COLUMNS FROM `wxatyun_user` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `wxatyun_user` WHERE `email` = 'mimaceshi2@163.com' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wxatyun_user` WHERE `cellphone` = '15600918537' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001085s ]
+
+[ 2016-09-10T23:37:26+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+SQL: SHOW COLUMNS FROM `wxatyun_user` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `wxatyun_user` WHERE `email` = 'mimaceshi2@163.com' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wxatyun_user` WHERE `cellphone` = '15600918537' LIMIT 1   [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: repassword D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1303 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009182s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009327s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000853s ]
+
+[ 2016-09-10T23:37:47+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001669s ]
+SQL: SHOW COLUMNS FROM `wxatyun_user` [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `wxatyun_user` WHERE `email` = 'mimaceshi2@163.com' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wxatyun_user` WHERE `cellphone` = '15600918537' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: repassword D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1303 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007499s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000709s ]
+
+[ 2016-09-10T23:37:58+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
+SQL: SHOW COLUMNS FROM `wxatyun_user` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `wxatyun_user` WHERE `email` = 'mimaceshi2@163.com' LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `wxatyun_user` WHERE `cellphone` = '15600918537' LIMIT 1   [ RunTime:0.0023s ]
+NOTIC: [8] Undefined index: repassword D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1303 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008153s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000780s ]
+
+[ 2016-09-10T23:38:14+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002317s ]
+SQL: SHOW COLUMNS FROM `wxatyun_user` [ RunTime:0.0035s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `wxatyun_user` WHERE `email` = 'mimaceshi2@163.com' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wxatyun_user` WHERE `cellphone` = '15600918537' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: repassword D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1303 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000263s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001467s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016169s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016385s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000820s ]
+
+[ 2016-09-10T23:38:37+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+SQL: SHOW COLUMNS FROM `wxatyun_user` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `wxatyun_user` WHERE `email` = 'mimaceshi2@163.com' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wxatyun_user` WHERE `cellphone` = '15600918537' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000308s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008084s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008264s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000772s ]
+
+[ 2016-09-10T23:38:49+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001165s ]
+SQL: SHOW COLUMNS FROM `wxatyun_user` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `wxatyun_user` WHERE `email` = 'mimaceshi2@163.com' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wxatyun_user` WHERE `cellphone` = '15600918537' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: repassword D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1303 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013672s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001163s ]
+
+[ 2016-09-10T23:41:06+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+SQL: SHOW COLUMNS FROM `wxatyun_user` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `wxatyun_user` WHERE `email` = 'mimaceshi2@163.com' LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `wxatyun_user` WHERE `cellphone` = '15600918537' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: repassword D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1284 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008172s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008352s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001174s ]
+
+[ 2016-09-10T23:41:15+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003617s ]
+SQL: SHOW COLUMNS FROM `wxatyun_user` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `wxatyun_user` WHERE `email` = 'mimaceshi2@163.com' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wxatyun_user` WHERE `cellphone` = '15600918537' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: repassword D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1284 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011045s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000917s ]
+
+[ 2016-09-10T23:41:24+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002370s ]
+SQL: SHOW COLUMNS FROM `wxatyun_user` [ RunTime:0.0031s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `wxatyun_user` WHERE `email` = 'mimaceshi2@163.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wxatyun_user` WHERE `cellphone` = '15600918537' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: repassword D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1284 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000564s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013530s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000723s ]
+
+[ 2016-09-10T23:42:09+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007381s ]
+SQL: SHOW COLUMNS FROM `wxatyun_user` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `wxatyun_user` WHERE `email` = 'mimaceshi2@163.com' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wxatyun_user` WHERE `cellphone` = '15600918537' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: repassword D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1284 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013482s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013621s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000708s ]
+
+[ 2016-09-10T23:42:15+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+SQL: SHOW COLUMNS FROM `wxatyun_user` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `wxatyun_user` WHERE `email` = 'mimaceshi2@163.com' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wxatyun_user` WHERE `cellphone` = '15600918537' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000767s ]
+
+[ 2016-09-10T23:42:17+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+SQL: SHOW COLUMNS FROM `wxatyun_user` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `wxatyun_user` WHERE `email` = 'mimaceshi2@163.com' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `wxatyun_user` WHERE `cellphone` = '15600918537' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000894s ]
+
+[ 2016-09-10T23:42:20+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009770s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000982s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001102s ]
+
+[ 2016-09-10T23:42:46+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002109s ]
+SQL: SHOW COLUMNS FROM `wxatyun_user` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `wxatyun_user` WHERE `email` = 'mimaceshi2@163.com' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wxatyun_user` WHERE `cellphone` = '15600918537' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: repassword D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1284 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009523s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000943s ]
+
+[ 2016-09-10T23:43:47+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000958s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001184s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008352s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001660s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001921s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001738s ]
+
+[ 2016-09-10T23:44:03+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000986s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001358s ]
+SQL: SHOW COLUMNS FROM `wxatyun_user` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `wxatyun_user` WHERE `email` = 'm15600918517@162.com' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wxatyun_user` WHERE `cellphone` = '15600918516' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008372s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000878s ]
+
+[ 2016-09-10T23:44:09+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001950s ]
+SQL: SHOW COLUMNS FROM `wxatyun_user` [ RunTime:0.0032s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `wxatyun_user` WHERE `email` = 'm15600918517@162.com' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wxatyun_user` WHERE `cellphone` = '15600918510' LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014829s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001537s ]
+
+[ 2016-09-10T23:44:14+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004602s ]
+SQL: SHOW COLUMNS FROM `wxatyun_user` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `wxatyun_user` WHERE `email` = 'm15600918517@162.com' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wxatyun_user` WHERE `cellphone` = '15600918510' LIMIT 1   [ RunTime:0.0032s ]
+NOTIC: [8] Undefined index: repassword D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1284 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008316s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001723s ]
+
+[ 2016-09-10T23:44:24+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+SQL: SHOW COLUMNS FROM `wxatyun_user` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `wxatyun_user` WHERE `email` = 'm15600918517@162.com' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wxatyun_user` WHERE `cellphone` = '15600918510' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: repassword D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1284 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000819s ]
+
+[ 2016-09-10T23:44:53+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003866s ]
+SQL: SHOW COLUMNS FROM `wxatyun_user` [ RunTime:0.0023s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `wxatyun_user` WHERE `email` = 'm15600918517@162.com' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wxatyun_user` WHERE `cellphone` = '15600918510' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: repassword D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1303 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008583s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008739s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000770s ]
+
+[ 2016-09-10T23:46:08+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000957s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001565s ]
+SQL: SHOW COLUMNS FROM `wxatyun_user` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `wxatyun_user` WHERE `email` = 'm15600918517@162.com' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wxatyun_user` WHERE `cellphone` = '15600918510' LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: repassword D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1303 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000397s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012976s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001315s ]
+
+[ 2016-09-10T23:46:52+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004867s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017433s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000983s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001105s ]
+
+[ 2016-09-10T23:47:07+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001666s ]
+SQL: SHOW COLUMNS FROM `wxatyun_user` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `wxatyun_user` WHERE `email` = 'm15600918517@126.com' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016709s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001967s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002494s ]
+
+[ 2016-09-10T23:47:12+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002465s ]
+SQL: SHOW COLUMNS FROM `wxatyun_user` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `wxatyun_user` WHERE `email` = 'm156009180517@126.com' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wxatyun_user` WHERE `cellphone` = '15600918518' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000398s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015138s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000882s ]
+
+[ 2016-09-10T23:47:18+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001634s ]
+SQL: SHOW COLUMNS FROM `wxatyun_user` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `wxatyun_user` WHERE `email` = 'm156009180517@126.com' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `wxatyun_user` WHERE `cellphone` = '15601918518' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007989s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001595s ]
+
+[ 2016-09-10T23:47:23+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001213s ]
+SQL: SHOW COLUMNS FROM `wxatyun_user` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `wxatyun_user` WHERE `email` = 'm156009180517@126.com' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wxatyun_user` WHERE `cellphone` = '15601918518' LIMIT 1   [ RunTime:0.0017s ]
+NOTIC: [8] Undefined index: repassword D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1303 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000457s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000771s ]
+
+[ 2016-09-10T23:47:32+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001803s ]
+SQL: SHOW COLUMNS FROM `wxatyun_user` [ RunTime:0.0034s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `wxatyun_user` WHERE `email` = 'm156009180517@126.com' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wxatyun_user` WHERE `cellphone` = '15601918518' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: repassword D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1303 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000396s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013298s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000845s ]
+
+[ 2016-09-10T23:52:33+08:00 ] ::1 /mywebsite_demo/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001236s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010873s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000982s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001103s ]
+
+[ 2016-09-10T23:52:33+08:00 ] ::1 /mywebsite_demo/index.php/Home/Login/creatVerify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001138s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001598s ]
+
+[ 2016-09-10T23:52:35+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000870s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001305s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008897s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001059s ]
+
+[ 2016-09-10T23:53:00+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001077s ]
+SQL: SHOW COLUMNS FROM `wxatyun_user` [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `wxatyun_user` WHERE `email` = 'm15600918517@0.com' LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `wxatyun_user` WHERE `cellphone` = '15600918536' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: repassword D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1303 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000436s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020409s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000952s ]
+
+[ 2016-09-10T23:53:09+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000173s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001653s ]
+SQL: SHOW COLUMNS FROM `wxatyun_user` [ RunTime:0.0032s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `wxatyun_user` WHERE `email` = 'm15600918517@0.com' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wxatyun_user` WHERE `cellphone` = '15600918536' LIMIT 1   [ RunTime:0.0019s ]
+NOTIC: [8] Undefined index: repassword D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1303 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009849s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010040s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001120s ]
+
+[ 2016-09-10T23:53:28+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001210s ]
+SQL: SHOW COLUMNS FROM `wxatyun_user` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `wxatyun_user` WHERE `email` = 'm15600918517@0.com' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wxatyun_user` WHERE `cellphone` = '15600918536' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: repassword D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1303 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012563s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000774s ]
+
+[ 2016-09-10T23:53:49+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001724s ]
+SQL: SHOW COLUMNS FROM `wxatyun_user` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `wxatyun_user` WHERE `email` = 'm15600918517@0.com' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wxatyun_user` WHERE `cellphone` = '15600918536' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: repassword D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1303 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000898s ]
+
+[ 2016-09-10T23:55:00+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+SQL: SHOW COLUMNS FROM `wxatyun_user` [ RunTime:0.0037s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `wxatyun_user` WHERE `email` = 'm15600918517@0.com' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wxatyun_user` WHERE `cellphone` = '15600918536' LIMIT 1   [ RunTime:0.0015s ]
+NOTIC: [8] Undefined index: repassword D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1303 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000312s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012611s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012767s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000959s ]
+
+[ 2016-09-10T23:55:08+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001197s ]
+SQL: SHOW COLUMNS FROM `wxatyun_user` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `wxatyun_user` WHERE `email` = 'm15600918517@0.com' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wxatyun_user` WHERE `cellphone` = '15600918536' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000913s ]
+
+[ 2016-09-10T23:55:34+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000138s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010692s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001207s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001428s ]
+
+[ 2016-09-10T23:55:45+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001628s ]
+SQL: SHOW COLUMNS FROM `wxatyun_user` [ RunTime:0.0017s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `wxatyun_user` WHERE `email` = 'watsonandjason@gmail.com' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wxatyun_user` WHERE `cellphone` = '15188317390' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000430s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001134s ]
+
+[ 2016-09-10T23:55:54+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003757s ]
+SQL: SHOW COLUMNS FROM `wxatyun_user` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `wxatyun_user` WHERE `email` = 'watsonandjason@gmail.com' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wxatyun_user` WHERE `cellphone` = '15188318390' LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011650s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000763s ]
+
+[ 2016-09-10T23:56:12+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `wxatyun_user` [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `wxatyun_user` WHERE `email` = 'watsonandjason@gmail.com' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wxatyun_user` WHERE `cellphone` = '15188318390' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: repassword D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1303 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011214s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000767s ]
+
+[ 2016-09-10T23:56:36+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000875s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011429s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000886s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001135s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001285s ]
+
+[ 2016-09-10T23:58:18+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001153s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021427s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001739s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001137s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001263s ]
+
+[ 2016-09-10T23:58:51+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000277s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002603s ]
+SQL: SHOW COLUMNS FROM `wxatyun_user` [ RunTime:0.0029s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `wxatyun_user` WHERE `email` = 'watsonandjason@gmail.com' LIMIT 1   [ RunTime:0.0035s ]
+SQL: SELECT * FROM `wxatyun_user` WHERE `cellphone` = '13456778901' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: passwords D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1303 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011504s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003639s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004016s ]
+
+[ 2016-09-10T23:59:00+08:00 ] ::1 /mywebsite_demo/index.php/Home/Register/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000806s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+SQL: SHOW COLUMNS FROM `wxatyun_user` [ RunTime:0.0032s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `wxatyun_user` WHERE `email` = 'watsonandjason@gmail.com' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wxatyun_user` WHERE `cellphone` = '13456778901' LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: passwords D:\wamp\www\mywebsite_demo\ThinkPHP\Library\Think\Model.class.php 第 1303 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013276s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000730s ]
+

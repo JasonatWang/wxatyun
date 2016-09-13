@@ -1,0 +1,68 @@
+<extend name="Public:common"/>
+<block name="main">
+<div class="btn-group col-lg-10 col-md-10 col-sm-10 col-xs-10">
+    <!-- 提供额外的视觉效果，标识一组按钮中的原始动作 -->
+    <!-- 按钮触发模态框 -->
+    <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+        <span class="glyphicon glyphicon-cloud-upload"></span> 上传文件
+    </button>
+    <!-- 模态框（Modal） -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <form method="post" action="__URL__/upload" enctype="multipart/form-data">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                            &times;
+                        </button>
+                        <h4 class="modal-title" id="myModalLabel">
+                            上传文件
+                        </h4>
+                    </div>
+                    <div class="modal-body">
+                        请选择文件
+                        <input type="file" class="file" name="users">
+                    </div>
+                </form>
+
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭
+                    </button>
+                    <button type="submit" class="btn btn-primary">
+                        确认上传
+                    </button>
+                </div> -->
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal -->
+    </div>
+
+    <!-- 标准的按钮 -->
+
+    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-asterisk"></span><a href="{: U('Index/changepassword')}"> 新建文件夹</a></button>
+    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-sort-by-order"></span> 按时间排序</button>
+    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-sort-by-alphabet"></span> 按文件名排序</button>
+    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-sort-by-attributes-alt"></span> 按大小排序</button>
+</div>
+<div class="filelist col-lg-10 col-md-10 col-sm-10 col-xs-10">
+
+    <div class="row">
+        <p></p>
+        <a href="#" class="list-group-item" id="filefolder" style="background-color: #2b669a">
+            <span class="glyphicon  glyphicon-th"></span>
+            <?php
+                $filename=A('Index');
+                $filename->showDirname();
+            ?>
+        </a>
+        <form method="post" action="__URL__/download">
+            <?php
+                $filename=A('Index');
+                $filename->showFilename('./WXYUN_USER_Uploads/'.$_SESSION['userid']."_"."/");
+
+            ?>
+        </form>
+    </div>
+</div>
+
+</block>
