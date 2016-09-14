@@ -17,7 +17,7 @@ function Qiniu_Sign($url) {//$info里面的url
     $setting['savePath']="./".$_SESSION['userid']."/";
     $duetime = NOW_TIME + 86400;//下载凭证有效时间
     $DownloadUrl = $url . '&e=' . $duetime;
-    $Sign = hash_hmac ( 'sha1', $DownloadUrl, $setting ["driverConfig"] ["secrectKey"], true );
+    $Sign = hash_hmac ( 'sha1', $DownloadUrl, $setting ["driverConfig"] ["secretKey"], true );
     $EncodedSign = Qiniu_Encode ( $Sign );
     $Token = $setting ["driverConfig"] ["accessKey"] . ':' . $EncodedSign;
     $RealDownloadUrl = $DownloadUrl . '&token=' . $Token;

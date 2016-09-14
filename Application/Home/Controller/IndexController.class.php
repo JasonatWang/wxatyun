@@ -179,20 +179,19 @@ class IndexController extends BaseController {
 //        dump($result);
         if($result==false) //如果查询不到文件信息
         {
-            $this->error('删除失败1！', '', 1);
+            $this->error('删除失败！', '', 1);
             exit();
         }else{
-            ob_end_clean();
             $savename="._".$_SESSION['userid']."_".$result['savename'];
             $setting=C('UPLOAD_SITEIMG_QINIU');
             $file=new \Think\Upload\Driver\Qiniu\QiniuStorage($setting['driverConfig']);
             $ifdel=$file->del($savename);
-//            dump($ifdel);
-            if($ifdel){
+            if($ifdel!==false){
+                $file->where($map)->delete();
                 $this->success("删除成功！");
                 exit();
             }else{
-                $this->error($savename.'删除失败2！', '', 1);
+                $this->error('删除失败！', '', 1);
                 exit();
             }
         }
