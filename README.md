@@ -13,9 +13,10 @@ You can preview it on <a href="http://wxatyun.com.cn">wxatyun.com.cn</a>
 6.文件删除File remove<br/>
 7.文件类型分类Sort items by file type<br/>
 8.显示空间储存剩余Show storage consumption of the owner<br/>
-# 下个版本将要改进的功能Function need to be improved in next version:<br/>
-1.密码加密Password encryption<br/>
-2.登录安全The security of login<br/>
-3.退出功能改进Exit improvement<br/>
-4.分享功能Share function<br/>
-5.加入七牛云储存Use Qiniu cloud storage
+9.加入七牛云储存Use Qiniu cloud storage<br/>
+# 还未的实现功能：
+0.密码加密Password encryption<br/>
+1.登录安全The security of login<br/>
+2.退出功能改进Exit improvement<br/>
+3.分享功能Share function<br/>
+4.七牛云复制，重命名功能
