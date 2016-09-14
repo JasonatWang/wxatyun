@@ -99,4 +99,5 @@ class Qiniu{
     public function getError(){
         return $this->qiniu->errorStr;
     }
+
 }
