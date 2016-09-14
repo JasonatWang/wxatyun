@@ -99,4 +99,13 @@ class Qiniu{
     public function getError(){
         return $this->qiniu->errorStr;
     }
+
+    public function __call($fun='',$arg=array()){
+        if(method_exists($this->qiniu,$fun)){
+            return call_user_func(array($this->qiniu,$fun), $arg[0]);
+        }else{
+            return 'no qiniu function of '.$fun;
+        }
+    }
+
 }

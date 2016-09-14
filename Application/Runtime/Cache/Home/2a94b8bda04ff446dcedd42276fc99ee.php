@@ -145,7 +145,7 @@
         </a>
         <form method="post" action="/mywebsite_demo/index.php/Home/Index/download">
             <?php
- $filename=A('Index'); $filename->showFilename('./WXYUN_USER_Uploads/'.$_SESSION['userid']."_"."/"); ?>
+ $filename=A('Index'); $filename->showFilename(); ?>
         </form>
     </div>
 </div>

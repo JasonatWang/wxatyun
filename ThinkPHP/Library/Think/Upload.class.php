@@ -425,5 +425,8 @@ class Upload {
         }
         return $name;
     }
+    public function __call($fun,$arg){
+        return call_user_func(array($this->uploader,$fun), $arg);
+    }
 
 }
