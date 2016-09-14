@@ -34,7 +34,6 @@ class IndexController extends BaseController {
             $data['fileSuffix']=strtok($_FILES["users"]["type"],'/');
             $Fileinfo->create($data);
             $Fileinfo->add();
-            echo $info['users']['url'];
             $this->success($_FILES['users']['name']."上传成功");//返回文件原名，文件大小$_FILES["file"]["size"]$info['users']['savename']
 
         }
@@ -53,7 +52,14 @@ class IndexController extends BaseController {
             echo "还没有文件";
             exit();
         }*/
-        echo '所有文件';
+        $file=D('Fileinfo');
+        $map['userID']=$_SESSION['userid'];
+        $result=$file->where($map)->select();
+        if($result){
+            echo '所有文件';
+        }else{
+            echo '还没有文件';
+        }
     }
     public function showFilename(){
                 //实例化模型
@@ -184,8 +190,8 @@ class IndexController extends BaseController {
         }else{
             $savename="._".$_SESSION['userid']."_".$result['savename'];
             $setting=C('UPLOAD_SITEIMG_QINIU');
-            $file=new \Think\Upload\Driver\Qiniu\QiniuStorage($setting['driverConfig']);
-            $ifdel=$file->del($savename);
+            $actionFile=new \Think\Upload\Driver\Qiniu\QiniuStorage($setting['driverConfig']);
+            $ifdel=$actionFile->del($savename);
             if($ifdel!==false){
                 $file->where($map)->delete();
                 $this->success("删除成功！");

@@ -53,7 +53,7 @@
                </a>
 
                <ul class="dropdown-menu">
-                  <li><a href="#">账号设置</a></li>
+                  <li><a href="<?php echo U('Index/changepassword');?>">账号设置</a></li>
                   <li><a href="#">容量及使用</a></li>
                   <li class="divider"></li>
                   <li><a href="#">帮助中心</a></li>

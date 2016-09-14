@@ -53,7 +53,7 @@
                </a>
 
                <ul class="dropdown-menu">
-                  <li><a href="#">账号设置</a></li>
+                  <li><a href="<?php echo U('Index/changepassword');?>">账号设置</a></li>
                   <li><a href="#">容量及使用</a></li>
                   <li class="divider"></li>
                   <li><a href="#">帮助中心</a></li>
@@ -129,7 +129,7 @@
 
     <!-- 标准的按钮 -->
 
-    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-asterisk"></span><a href="<?php echo U('Index/changepassword');?>"> 新建文件夹</a></button>
+    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-asterisk"></span> 新建文件夹</button>
     <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-sort-by-order"></span> 按时间排序</button>
     <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-sort-by-alphabet"></span> 按文件名排序</button>
     <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-sort-by-attributes-alt"></span> 按大小排序</button>
