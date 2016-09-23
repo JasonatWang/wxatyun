@@ -1,18 +1,18 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>修改密码</title>
-    <link href="/mywebsite_demo/Public\Home\css\bootstrap.min.css" rel="stylesheet">
-    <!--<link href="/mywebsite_demo/Public\Home\css\bootstrap-theme.min.css" rel="stylesheet">-->
-    <link href="/mywebsite_demo/Public\Home\css\fileinput.min.css" media="all" rel="stylesheet" type="text/css" />
-    <link href="/mywebsite_demo/Public\Home\css\style.css" rel="stylesheet">
-    <script src="/mywebsite_demo/Public\Home\js\jquery-3.1.0.min.js"></script>
-    <script src="/mywebsite_demo/Public\Home\js\fileinput.min.js"></script>
-    <script src="/mywebsite_demo/Public\Home\js\bootstrap.js"></script>
-    <script src="/mywebsite_demo/Public\Home\js\index.js"></script>
-    <script src="/mywebsite_demo/Public\Home\js\fileinput_locale_zh.js"></script>
-    <link rel="shortcut icon" href="/mywebsite_demo/Public\Home\image\logo.png">
+    <title>文件分享</title>
+    <link href="__PUBLIC__\Home\css\bootstrap.min.css" rel="stylesheet">
+    <!--<link href="__PUBLIC__\Home\css\bootstrap-theme.min.css" rel="stylesheet">-->
+    <link href="__PUBLIC__\Home\css\fileinput.min.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="__PUBLIC__\Home\css\style.css" rel="stylesheet">
+    <script src="__PUBLIC__\Home\js\jquery-3.1.0.min.js"></script>
+    <script src="__PUBLIC__\Home\js\fileinput.min.js"></script>
+    <script src="__PUBLIC__\Home\js\bootstrap.js"></script>
+    <script src="__PUBLIC__\Home\js\index.js"></script>
+    <script src="__PUBLIC__\Home\js\fileinput_locale_zh.js"></script>
+    <link rel="shortcut icon" href="__PUBLIC__\Home\image\logo.png">
 </head>
 <body>
 <div class="container-fluid" >
@@ -26,8 +26,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="<?php echo U('Index/index');?>">
-                    <img src="/mywebsite_demo/Public\Home\image\WX云-logo.png" width="110px" height="40px"/>
+                <a class="navbar-brand" href="{: U('Index/index')}">
+                    <img src="__PUBLIC__\Home\image\WX云-logo.png" width="110px" height="40px"/>
                 </a>
 
             </div>
@@ -49,7 +49,8 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                             <span class="glyphicon glyphicon-user"></span>
                             <?php
- echo $_SESSION['nickname']; ?> <b class="caret"></b>
+                     echo $_SESSION['nickname'];//显示用户名
+                  ?> <b class="caret"></b>
                         </a>
 
                         <ul class="dropdown-menu">
@@ -59,23 +60,36 @@
                             <li><a href="#">帮助中心</a></li>
                             <li><a href="#">意见反馈</a></li>
                             <li class="divider"></li>
-                            <li><a href="<?php echo U('Login/login');?>">退出</a></li>
+                            <li><a href="{: U('Login/login')}">退出</a></li>
                         </ul>
                     </li>
 
-                    <li><a href="<?php echo U('Login/login');?>"><span class="glyphicon glyphicon-log-out"></span> 退出</a></li>
+                    <li><a href="{: U('Login/login')}"><span class="glyphicon glyphicon-log-out"></span> 退出</a></li>
                 </ul>
             </div>
 
         </div>
     </nav>
 </div>
-<div  style = "height:50px"></div>
-<form method="post" action="/mywebsite_demo/index.php/Home/Index/changepwd">
-    <input name="oldpassword" type="password" placeholder="旧密码" />
-    <input name="password" type="password" placeholder="新密码" />
-    <input name="repassword" type="password" placeholder="确认新密码" />
-    <input type="submit" value="更改密码">
-</form>
+<div style = "height:50px"></div>
+<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" ></div>
+<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+
+    <div class="row">
+        <p></p>
+        <a href="#" class="list-group-item" id="filefolder" style="background-color: #2b669a">
+            <span class="glyphicon  glyphicon-th"></span>
+            所有分享
+        </a>
+        <form method="post" action="__URL__/download">
+            <?php
+                $filename=A('Index');
+                $filename->showShareFile();
+
+            ?>
+        </form>
+    </div>
+</div>
+<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" ></div>
 </body>
 </html>

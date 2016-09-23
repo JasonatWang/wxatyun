@@ -18,20 +18,36 @@ class IndexController extends BaseController {
         $setting=C("UPLOAD_SITEIMG_QINIU");
         $setting['savePath']="./".$_SESSION['userid']."/";
         $upload = new \Think\Upload($setting);// 实例化上传类
-        // 上传文件
-        $info = $upload->upload($_FILES);
+        $Fileinfo = D('Fileinfo');
+        //检查是否重名
+        $confirm['fileName']=$_FILES["users"]["name"];
+        $confirm['fileSize']=$_FILES["users"]["size"];
+        $confirm['fileSuffix']=strtok($_FILES["users"]["type"],'/');
+        $confirm['folder']="All";
+        if($Fileinfo->where($confirm)->select()){
+            $info=false;
+            $this->error($upload->getError());
+        }else{
+            // 上传文件
+            $info = $upload->upload($_FILES);
+        }
         if(!$info) {// 上传错误提示错误信息
             $this->error($upload->getError());
         }else{// 上传成功
             //实例化模型
-            $Fileinfo = D('Fileinfo');
+            //$Fileinfo = D('Fileinfo');
             $data['userID']=$_SESSION['userid'];
             $data['userDirname']='./'.$_SESSION['userid'].'/';
             $data['savePath']="./".$_SESSION['userid']."/";
             $data['saveName']=$info['users']['savename'];
-            $data['fileName']=$_FILES["users"]["name"];
+            $data['fileName']=$confirm['fileName'];
+            $data['fileSize']=$confirm['fileSize'];
+            $data['fileSuffix']=$confirm['fileSuffix'];
+            $data['folder']=$confirm['folder'];
+            /*$data['fileName']=$_FILES["users"]["name"];
             $data['fileSize']=$_FILES["users"]["size"];
             $data['fileSuffix']=strtok($_FILES["users"]["type"],'/');
+            $data['folder']="All";*/
             $Fileinfo->create($data);
             $Fileinfo->add();
             $this->success($_FILES['users']['name']."上传成功");//返回文件原名，文件大小$_FILES["file"]["size"]$info['users']['savename']
@@ -81,6 +97,16 @@ class IndexController extends BaseController {
                     echo " 下载";
 //                dump($filename);
                     echo "</button>";
+                    echo "<button id='actionbtn' value=\"$actionfile\" class='btn btn-primary' type='submit' name='renamefile'>";
+                    echo "<span id='actionicon' class=\"glyphicon  glyphicon-random\"></span>";
+                    echo " 重命名";
+//                dump($filename);
+                    echo "</button>";
+                    echo "<button id='actionbtn' value=\"$actionfile\" class='btn btn-primary' type='submit' name='sharefile'>";
+                    echo "<span id='actionicon' class=\"glyphicon glyphicon-share-alt\"></span>";
+                    echo " 分享";
+//                dump($filename);
+                    echo "</button>";
                     echo "</a>";
                 }
     }
@@ -118,6 +144,16 @@ class IndexController extends BaseController {
 //                dump($filename);
             echo "</button>";
 //                dump($filename);
+            echo "<button id='actionbtn' value=\"$actionfile\" class='btn btn-primary' type='submit' name='renamefile'>";
+            echo "<span id='actionicon' class=\"glyphicon  glyphicon-random\"></span>";
+            echo " 重命名";
+//                dump($filename);
+            echo "</button>";
+            echo "<button id='actionbtn' value=\"$actionfile\" class='btn btn-primary' type='submit' name='sharefile'>";
+            echo "<span id='actionicon' class=\"glyphicon  glyphicon-share-alt\"></span>";
+            echo " 分享";
+//                dump($filename);
+            echo "</button>";
             echo "</a>";
         }
     }
@@ -129,6 +165,35 @@ class IndexController extends BaseController {
             case 'image': echo '所有图片';break;
             case 'text': echo '所有文本';break;
             case 'trash': echo '回收站';break;
+        }
+    }
+    public function showShareFile(){
+        //实例化模型
+        $Fileinfo = M('Fileinfo');
+        $map['userID']=$_SESSION['userid'];
+        $map['share']=$_SESSION['userid'];
+        $file=$Fileinfo->where($map)->select();//查询临时文件名，并进行替换
+        foreach($file as $filename) {
+            $actionfile = $filename['filename'];
+            echo "<a id='actionlist' class=\"list-group-item\">";
+            echo "<span class=\"glyphicon  glyphicon-file\"></span> ";
+            echo $filename['filename'];
+            echo "<button id='actionbtn' value=\"$actionfile\" class='btn btn-primary' type='submit' name='downloadfile'>";
+            echo "<span id='actionicon' class=\"glyphicon  glyphicon-cloud-download\"></span>";
+            echo " 下载";
+//                dump($filename);
+            echo "</button>";
+            echo "<button id='actionbtn' value=\"$actionfile\" class='btn btn-primary' type='submit' name='renamefile'>";
+            echo "<span id='actionicon' class=\"glyphicon  glyphicon-random\"></span>";
+            echo " 重命名";
+//                dump($filename);
+            echo "</button>";
+            echo "<button id='actionbtn' value=\"$actionfile\" class='btn btn-primary' type='submit' name='nsharefile'>";
+            echo "<span id='actionicon' class=\"glyphicon glyphicon-share-alt\"></span>";
+            echo " 取消分享";
+//                dump($filename);
+            echo "</button>";
+            echo "</a>";
         }
     }
     public function showRoomleft(){
@@ -174,6 +239,10 @@ class IndexController extends BaseController {
 
     }
     public function delete(){
+        if(!I('deletefile')){
+            $this->renameFile();
+            exit();
+        }
         $map['fileName']=I('deletefile');//GET方式传到此方法中的参数id,即文件在数据库里的保存id.根据之查找文件信息。
         $map['userID']=$_SESSION['userid'];
         if($map==''){
@@ -200,6 +269,41 @@ class IndexController extends BaseController {
                 $this->error('删除失败！', '', 1);
                 exit();
             }
+        }
+    }
+    public function renameFile(){
+        if(!I('renamefile')){
+            $this->shareFile();
+            exit();
+        }else{
+            $this->error('重命名功能尚未完善！','',3);
+        }
+    }
+    public function shareFile(){
+        $map['fileName']=I('sharefile');
+        $map['userID']=$_SESSION['userid'];
+        if($map==''){
+            $this->error('分享失败！','',1);
+            exit();
+        }
+        $file=D('Fileinfo');
+        $data['share']=$_SESSION['userid'];
+        if(!I('sharefile') && I('nsharefile')){
+            $map['fileName']=I('nsharefile');
+            $data['share']=null;
+            $result=$file->where($map)->save($data);
+            if(!$result){
+                $this->error('取消分享失败','',1);
+            }else{
+                $this->success('取消分享成功！','',1);
+            }
+            exit();
+        }
+        $result= $file->where($map)->save($data);//根据id查询到文件信息
+        if(!$result){
+            $this->error('不能重复分享','',1);
+        }else{
+            $this->success('分享成功！','',1);
         }
     }
     public function changepwd(){
