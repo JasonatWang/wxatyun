@@ -18,5 +18,5 @@ You can preview it on <a href="http://wxatyun.com.cn">wxatyun.com.cn</a>
 0.密码加密Password encryption<br/>
 1.登录安全The security of login<br/>
 2.退出功能改进Exit improvement<br/>
-3.分享功能Share function<br/>
+3.分享功能Share function,目前已有雏形<br/>
 4.七牛云复制，重命名功能
